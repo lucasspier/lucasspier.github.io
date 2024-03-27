@@ -1,14 +1,14 @@
 body {
-    background-color: lightblue;
-  }
-  
-  h1 {
-    color: rgb(179, 41, 41);
-    margin-left: 20px;
-  }
+  background-color: #e61aa2;
+  color: #696969;
 
- h2 {
-    color: rgb(31, 219, 147);
-    margin-left: 20px;
-    
-  }
+}
+h1 {
+  background-color: rgb(0, 132, 255);
+  color: #0f49a1;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+}
