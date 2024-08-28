@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nomes Aleatórios</title>
+    <title>Nome Aleatório</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -30,7 +30,7 @@
 
     <script>
         function gerarNome() {
-            const nomes = ["LUCAS1", "LUCAS2", "LUCAS3", "LUCAS4", "lucas5"];
+            const nomes = ["lucas1", "lucas2", "lucas3", "lucas4", "lucas5"];
             const nomeAleatorio = nomes[Math.floor(Math.random() * nomes.length)];
             document.getElementById("nome").textContent = nomeAleatorio;
         }
